@@ -39,6 +39,13 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+		<!-- H2 JDBC driver -->
+ 		<dependency>
+		    <groupId>com.h2database</groupId>
+		    <artifactId>h2</artifactId>
+		    <version>1.4.196</version>
+		</dependency>
+
 		<!-- MySQL database driver -->
 		<dependency>
 			<groupId>mysql</groupId>
