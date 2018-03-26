@@ -26,7 +26,6 @@ public class AppTest {
 
         JobExecution jobExecution = jobLauncherTestUtils.launchJob();
         //JobExecution jobExecution = jobLauncherTestUtils.launchStep("step1");
-        
         assertEquals(BatchStatus.COMPLETED, jobExecution.getStatus());
         
     }
