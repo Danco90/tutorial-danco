@@ -12,7 +12,7 @@
 	<bean id="domain" class="com.mkyong.domain.Domain" />
 
 	<bean id="fileDeletingTasklet" class="com.mkyong.tasklet.FileDeletingTasklet" >
-		<property name="directory" value="file:csv/input" />
+		<property name="directory" value="file:csv/input/" />
 	</bean>
 	
 	<job id="readMultiFileJob" xmlns="http://www.springframework.org/schema/batch">
